@@ -1,0 +1,46 @@
+server_name = "pkulaw_unified_mcp"
+server_version = "0.2.0"
+tool_name_mode = "auto"
+prefix_separator = "__"
+skip_unavailable_services = true
+
+[http_headers]
+Authorization = "Bearer ${PKULAW_MCP_TOKEN}"
+
+# 这是一个尽量“开箱即用”的示例配置。
+# 下面这些服务已经用当前 token 实测可用。
+
+[[services]]
+name = "law_search_semantic"
+title = "检索法律法规-语义"
+url = "https://apim-gateway.pkulaw.com/mcp-law-search-service"
+
+[[services]]
+name = "case_keyword"
+title = "检索司法案例-关键词"
+url = "https://apim-gateway.pkulaw.com/mcp-case"
+
+[[services]]
+name = "citation_validator"
+title = "修正生成幻觉-法条"
+url = "https://apim-gateway.pkulaw.com/pku_citation_validator"
+
+[[services]]
+name = "doc_link"
+title = "法宝超链"
+url = "https://apim-gateway.pkulaw.com/add-doc-link"
+
+[[services]]
+name = "case_number_recognition"
+title = "案号识别与溯源"
+url = "https://apim-gateway.pkulaw.com/case_number_recognition"
+
+[[services]]
+name = "fatiao_keyword"
+title = "精准查找法条-关键词"
+url = "https://apim-gateway.pkulaw.com/mcp-fatiao"
+
+[[services]]
+name = "nl_sql_search"
+title = "法宝语义检索（NL-SQL）"
+url = "https://apim-gateway.pkulaw.com/assistant/mcp-pkulaw-search"

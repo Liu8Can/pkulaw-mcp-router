@@ -1,0 +1,122 @@
+[
+  {
+    "alias": "case_number_recognition",
+    "productName": "案号识别与溯源",
+    "pubProductId": "1993202788879962112",
+    "subpageUrl": "https://mcp.pkulaw.com/apis/1993202788879962112",
+    "apiUuid": "91c88a1c-84d0-4742-bcbf-73e55b307120",
+    "swaggerUrl": "https://mcp.pkulaw.com/wso/api/am/devportal/apis/91c88a1c-84d0-4742-bcbf-73e55b307120/swagger",
+    "serviceUrl": "https://apim-gateway.pkulaw.com/case_number_recognition",
+    "serviceUrlWithVersion": "https://apim-gateway.pkulaw.com/case_number_recognition/1.0.0",
+    "difyUrl": "https://apim-gateway.pkulaw.com/case_number_recognition/mcp",
+    "servicePath": "/case_number_recognition/1.0.0"
+  },
+  {
+    "alias": "add_doc_link",
+    "productName": "法宝超链",
+    "pubProductId": "1948587972802777088",
+    "subpageUrl": "https://mcp.pkulaw.com/apis/1948587972802777088",
+    "apiUuid": "21568f2c-db18-4e92-b717-a086e97032e6",
+    "swaggerUrl": "https://mcp.pkulaw.com/wso/api/am/devportal/apis/21568f2c-db18-4e92-b717-a086e97032e6/swagger",
+    "serviceUrl": "https://apim-gateway.pkulaw.com/add-doc-link",
+    "serviceUrlWithVersion": "https://apim-gateway.pkulaw.com/add-doc-link/1.0.0",
+    "difyUrl": "https://apim-gateway.pkulaw.com/add-doc-link/mcp",
+    "servicePath": "/add-doc-link/1.0.0"
+  },
+  {
+    "alias": "assistant_mcp_pkulaw_search",
+    "productName": "法宝语义检索（NL-SQL）",
+    "pubProductId": "1998197947728269312",
+    "subpageUrl": "https://mcp.pkulaw.com/apis/1998197947728269312",
+    "apiUuid": "5dac2c6d-5045-4d5a-bf8a-14c87ad99f84",
+    "swaggerUrl": "https://mcp.pkulaw.com/wso/api/am/devportal/apis/5dac2c6d-5045-4d5a-bf8a-14c87ad99f84/swagger",
+    "serviceUrl": "https://apim-gateway.pkulaw.com/assistant/mcp-pkulaw-search",
+    "serviceUrlWithVersion": "https://apim-gateway.pkulaw.com/assistant/mcp-pkulaw-search/1.0.0",
+    "difyUrl": "https://apim-gateway.pkulaw.com/assistant/mcp-pkulaw-search/mcp",
+    "servicePath": "/assistant/mcp-pkulaw-search/1.0.0"
+  },
+  {
+    "alias": "law_recognition",
+    "productName": "法条识别与溯源",
+    "pubProductId": "1968986613887406080",
+    "subpageUrl": "https://mcp.pkulaw.com/apis/1968986613887406080",
+    "apiUuid": "72b861fe-47e3-4bfc-9bb7-9d948503dd08",
+    "swaggerUrl": "https://mcp.pkulaw.com/wso/api/am/devportal/apis/72b861fe-47e3-4bfc-9bb7-9d948503dd08/swagger",
+    "serviceUrl": "https://apim-gateway.pkulaw.com/law_recognition",
+    "serviceUrlWithVersion": "https://apim-gateway.pkulaw.com/law_recognition/1.0.0",
+    "difyUrl": "https://apim-gateway.pkulaw.com/law_recognition/mcp",
+    "servicePath": "/law_recognition/1.0.0"
+  },
+  {
+    "alias": "mcp_law",
+    "productName": "检索法律法规-关键词",
+    "pubProductId": "1948588494288982016",
+    "subpageUrl": "https://mcp.pkulaw.com/apis/1948588494288982016",
+    "apiUuid": "df85f5c9-5bca-43d1-ad55-0a52017db1ae",
+    "swaggerUrl": "https://mcp.pkulaw.com/wso/api/am/devportal/apis/df85f5c9-5bca-43d1-ad55-0a52017db1ae/swagger",
+    "serviceUrl": "https://apim-gateway.pkulaw.com/mcp-law",
+    "serviceUrlWithVersion": "https://apim-gateway.pkulaw.com/mcp-law/1.0.0",
+    "difyUrl": "https://apim-gateway.pkulaw.com/mcp-law/mcp",
+    "servicePath": "/mcp-law/1.0.0"
+  },
+  {
+    "alias": "mcp_law_search_service",
+    "productName": "检索法律法规-语义",
+    "pubProductId": "1948587735656828928",
+    "subpageUrl": "https://mcp.pkulaw.com/apis/1948587735656828928",
+    "apiUuid": "3836b0ee-676a-43bb-b2a0-89826017910a",
+    "swaggerUrl": "https://mcp.pkulaw.com/wso/api/am/devportal/apis/3836b0ee-676a-43bb-b2a0-89826017910a/swagger",
+    "serviceUrl": "https://apim-gateway.pkulaw.com/mcp-law-search-service",
+    "serviceUrlWithVersion": "https://apim-gateway.pkulaw.com/mcp-law-search-service/1.0.0",
+    "difyUrl": "https://apim-gateway.pkulaw.com/mcp-law-search-service/mcp",
+    "servicePath": "/mcp-law-search-service/1.0.0"
+  },
+  {
+    "alias": "mcp_case",
+    "productName": "检索司法案例-关键词",
+    "pubProductId": "1953322019781218304",
+    "subpageUrl": "https://mcp.pkulaw.com/apis/1953322019781218304",
+    "apiUuid": "f61f0d5b-7c5f-4804-8318-72f3be2bd734",
+    "swaggerUrl": "https://mcp.pkulaw.com/wso/api/am/devportal/apis/f61f0d5b-7c5f-4804-8318-72f3be2bd734/swagger",
+    "serviceUrl": "https://apim-gateway.pkulaw.com/mcp-case",
+    "serviceUrlWithVersion": "https://apim-gateway.pkulaw.com/mcp-case/1.0.0",
+    "difyUrl": "https://apim-gateway.pkulaw.com/mcp-case/mcp",
+    "servicePath": "/mcp-case/1.0.0"
+  },
+  {
+    "alias": "mcp_case_search_service",
+    "productName": "检索司法案例-语义",
+    "pubProductId": "1990710527638245376",
+    "subpageUrl": "https://mcp.pkulaw.com/apis/1990710527638245376",
+    "apiUuid": "6c681f58-4f11-4e0c-98ec-cd6252dfe486",
+    "swaggerUrl": "https://mcp.pkulaw.com/wso/api/am/devportal/apis/6c681f58-4f11-4e0c-98ec-cd6252dfe486/swagger",
+    "serviceUrl": "https://apim-gateway.pkulaw.com/mcp-case-search-service",
+    "serviceUrlWithVersion": "https://apim-gateway.pkulaw.com/mcp-case-search-service/1.0.0",
+    "difyUrl": "https://apim-gateway.pkulaw.com/mcp-case-search-service/mcp",
+    "servicePath": "/mcp-case-search-service/1.0.0"
+  },
+  {
+    "alias": "mcp_fatiao",
+    "productName": "精准查找法条-关键词",
+    "pubProductId": "1953321771482615808",
+    "subpageUrl": "https://mcp.pkulaw.com/apis/1953321771482615808",
+    "apiUuid": "8204b7ff-1a08-4f22-91dd-acb99ae58c04",
+    "swaggerUrl": "https://mcp.pkulaw.com/wso/api/am/devportal/apis/8204b7ff-1a08-4f22-91dd-acb99ae58c04/swagger",
+    "serviceUrl": "https://apim-gateway.pkulaw.com/mcp-fatiao",
+    "serviceUrlWithVersion": "https://apim-gateway.pkulaw.com/mcp-fatiao/1.0.0",
+    "difyUrl": "https://apim-gateway.pkulaw.com/mcp-fatiao/mcp",
+    "servicePath": "/mcp-fatiao/1.0.0"
+  },
+  {
+    "alias": "pku_citation_validator",
+    "productName": "修正生成幻觉-法条",
+    "pubProductId": "1948588716062806016",
+    "subpageUrl": "https://mcp.pkulaw.com/apis/1948588716062806016",
+    "apiUuid": "74407400-ba0d-4bf9-8fe3-0290e9106c40",
+    "swaggerUrl": "https://mcp.pkulaw.com/wso/api/am/devportal/apis/74407400-ba0d-4bf9-8fe3-0290e9106c40/swagger",
+    "serviceUrl": "https://apim-gateway.pkulaw.com/pku_citation_validator",
+    "serviceUrlWithVersion": "https://apim-gateway.pkulaw.com/pku_citation_validator/1.0.0",
+    "difyUrl": "https://apim-gateway.pkulaw.com/pku_citation_validator/mcp",
+    "servicePath": "/pku_citation_validator/1.0.0"
+  }
+]
