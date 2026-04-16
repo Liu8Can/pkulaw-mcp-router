@@ -4,6 +4,10 @@
 
 Merge multiple PKULAW MCP sub-services into one local MCP server.
 
+## npm
+
+- npm: `https://www.npmjs.com/package/pkulaw-mcp-router`
+
 ## Overview
 
 PKULAW currently exposes many MCP capabilities as separate remote endpoints.  
@@ -174,6 +178,12 @@ PKULAW_MCP_TOKEN = "your-token"
 - availability depends on the services enabled for the current token
 - `inspect` is the source of truth for current reachability
 - the router only aggregates services that can actually be connected
+
+## Maintenance and release
+
+For future release steps, see:
+
+- `RELEASE.md`
 
 ## License
 

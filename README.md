@@ -4,6 +4,10 @@
 
 把多个北大法宝 MCP 子服务聚合成一个本地 MCP 入口。
 
+## npm
+
+- npm: `https://www.npmjs.com/package/pkulaw-mcp-router`
+
 ## 项目简介
 
 北大法宝目前把不少 MCP 能力拆成了多个独立服务地址。  
@@ -187,6 +191,12 @@ PKULAW_MCP_TOKEN = "your-token"
 - 服务可用性取决于当前 token 对应的北大法宝订阅权限
 - `inspect` 的结果就是当前真实可用状态
 - 路由器只聚合实际可连接的服务
+
+## 维护与发布
+
+后续版本发布流程见：
+
+- `RELEASE.md`
 
 ## License
 
